@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.bicyclesharing.dao.AdminMessageDao">
+    <!--1.通过通知id获取管理员通知(需要管理员名字,不是id所以连接起来)-->
+    <select id="getAdminMessage" resultType="AdminMessage" parameterType="Integer">
+        SELECT *
+        FROM admin_message m, admin a
+        WHERE m.admin_id = a.admin_id
+              AND m.admin_message_id = #{adminMessageId}
+    </select>
+    <!--2.获取所有的管理员通知及发布者名称(名称怎么也弄不到,就弄id吧,那这个连接没有卵用啊..)-->
+    <select id="selectAllAdminMessage" resultType="AdminMessage">
+        SELECT *
+        FROM admin_message m, admin a
+        WHERE m.admin_id = a.admin_id
+        ORDER BY admin_message_time DESC
+    </select>
+    <!--3.添加管理员通知-->
+    <insert id="insertAdminMessage" parameterType="AdminMessage">
+        INSERT INTO admin_message (admin_message_id, admin_message_title, admin_message_content, admin_message_time, admin_id)
+        VALUES (#{adminMessageId}, #{adminMessageTitle}, #{adminMessageContent}, #{adminMessageTime}, #{adminId})
+    </insert>
+    <!--4.通过通知id删除管理员通知-->
+    <delete id="deleteAdminMessageById" parameterType="Integer">
+        DELETE FROM admin_message
+        WHERE admin_message_id = #{adminMessageId}
+    </delete>
+    <!--5.更新管理员通知(单行)-->
+    <update id="updateAdminMessage" parameterType="AdminMessage">
+        UPDATE admin_message
+        SET
+            admin_message_title   = #{adminMessageTitle},
+            admin_message_content = #{adminMessageContent},
+            admin_message_time    = #{adminMessageTime},
+            admin_id              = #{adminId}
+        WHERE admin_message_id = #{adminMessageId}
+    </update>
+    <!--6.通过通知名称模糊(like)查询符合条件通知-->
+    <select id="selectAdminMessageByTitleLike" parameterType="String" resultType="AdminMessage">
+        SELECT *
+        FROM admin_message
+        WHERE admin_message_title LIKE '%${_parameter}%'
+    </select>
+</mapper>

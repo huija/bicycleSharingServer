@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="bicycle_sharing@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="bicycle_sharing">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="book_mate"/>
+    <schema id="4" parent="1" name="hibernate"/>
+    <schema id="5" parent="1" name="information_schema"/>
+    <schema id="6" parent="1" name="mysql"/>
+    <schema id="7" parent="1" name="performance_schema"/>
+    <schema id="8" parent="1" name="sampledb"/>
+    <schema id="9" parent="1" name="seckill"/>
+    <schema id="10" parent="1" name="ssh_employee"/>
+    <schema id="11" parent="1" name="sys"/>
+    <schema id="12" parent="1" name="test"/>
+    <table id="13" parent="2" name="admin">
+      <Comment>管理员表</Comment>
+    </table>
+    <table id="14" parent="2" name="admin_message">
+      <Comment>管理员通知表</Comment>
+    </table>
+    <table id="15" parent="2" name="bicycle">
+      <Comment>单车表</Comment>
+    </table>
+    <table id="16" parent="2" name="borrow">
+      <Comment>借车记录表</Comment>
+    </table>
+    <table id="17" parent="2" name="recharge">
+      <Comment>充值记录表</Comment>
+    </table>
+    <table id="18" parent="2" name="user">
+      <Comment>用户表</Comment>
+    </table>
+    <table id="19" parent="2" name="user_feedback">
+      <Comment>用户反馈表</Comment>
+    </table>
+    <column id="20" parent="13" name="admin_id">
+      <Position>1</Position>
+      <Comment>管理员id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="21" parent="13" name="admin_name">
+      <Position>2</Position>
+      <Comment>管理员账户</Comment>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="22" parent="13" name="admin_password">
+      <Position>3</Position>
+      <Comment>管理员密码</Comment>
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="23" parent="13" name="admin_email">
+      <Position>4</Position>
+      <Comment>管理员邮箱</Comment>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="24" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>admin_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="25" parent="14" name="admin_message_id">
+      <Position>1</Position>
+      <Comment>管理员通知id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="26" parent="14" name="admin_message_title">
+      <Position>2</Position>
+      <Comment>管理员通知标题</Comment>
+      <DataType>varchar(500)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="27" parent="14" name="admin_message_content">
+      <Position>3</Position>
+      <Comment>管理员通知内容</Comment>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="14" name="admin_message_time">
+      <Position>4</Position>
+      <Comment>发布时间</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="29" parent="14" name="admin_id">
+      <Position>5</Position>
+      <Comment>发布管理员id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="30" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>admin_message_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="31" parent="15" name="bicycle_id">
+      <Position>1</Position>
+      <Comment>单车id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="32" parent="15" name="bicycle_current_x">
+      <Position>2</Position>
+      <Comment>单车经度</Comment>
+      <DataType>double|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="15" name="bicycle_current_y">
+      <Position>3</Position>
+      <Comment>单车纬度</Comment>
+      <DataType>double|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="15" name="bicycle_last_time">
+      <Position>4</Position>
+      <Comment>最后一次归还时间</Comment>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="15" name="bicycle_statement">
+      <Position>5</Position>
+      <Comment>单车状况</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+    </column>
+    <key id="36" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>bicycle_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="37" parent="16" name="borrow_id">
+      <Position>1</Position>
+      <Comment>管理员通知id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="38" parent="16" name="bicycle_id">
+      <Position>2</Position>
+      <Comment>单车id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="39" parent="16" name="user_id">
+      <Position>3</Position>
+      <Comment>借车人id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="40" parent="16" name="borrow_start_time">
+      <Position>4</Position>
+      <Comment>借车开始时间</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="41" parent="16" name="borrow_end_time">
+      <Position>5</Position>
+      <Comment>借车结束时间</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+    </column>
+    <column id="42" parent="16" name="borrow_start_x">
+      <Position>6</Position>
+      <Comment>开始经度</Comment>
+      <DataType>double|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="16" name="borrow_start_y">
+      <Position>7</Position>
+      <Comment>开始纬度</Comment>
+      <DataType>double|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="16" name="borrow_end_x">
+      <Position>8</Position>
+      <Comment>开始经度</Comment>
+      <DataType>double|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="16" name="borrow_end_y">
+      <Position>9</Position>
+      <Comment>开始纬度</Comment>
+      <DataType>double|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="16" name="cost">
+      <Position>10</Position>
+      <Comment>消费金额</Comment>
+      <DataType>decimal(9,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="16" name="remaining">
+      <Position>11</Position>
+      <Comment>消费余额</Comment>
+      <DataType>decimal(9,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="48" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>borrow_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="49" parent="17" name="recharge_id">
+      <Position>1</Position>
+      <Comment>管理员通知id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="50" parent="17" name="user_id">
+      <Position>2</Position>
+      <Comment>充值人id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="17" name="recharge_amount">
+      <Position>3</Position>
+      <Comment>充值金额</Comment>
+      <DataType>decimal(9,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="17" name="remaining">
+      <Position>4</Position>
+      <Comment>余额</Comment>
+      <DataType>decimal(9,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="17" name="recharge_time">
+      <Position>5</Position>
+      <Comment>充值时间</Comment>
+      <DataType>timestamp|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <key id="54" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>recharge_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="55" parent="18" name="user_id">
+      <Position>1</Position>
+      <Comment>用户id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="56" parent="18" name="user_name">
+      <Position>2</Position>
+      <Comment>用户手机号</Comment>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="18" name="user_account">
+      <Position>3</Position>
+      <Comment>余额</Comment>
+      <DataType>decimal(9,2)|0</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+    </column>
+    <column id="58" parent="18" name="user_credit">
+      <Position>4</Position>
+      <Comment>信用度</Comment>
+      <DataType>int(11)|0</DataType>
+      <DefaultExpression>&apos;80&apos;</DefaultExpression>
+    </column>
+    <column id="59" parent="18" name="user_cash">
+      <Position>5</Position>
+      <Comment>押金</Comment>
+      <DataType>int(11)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <key id="60" parent="18" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>user_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="61" parent="19" name="feedback_id">
+      <Position>1</Position>
+      <Comment>反馈id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="62" parent="19" name="feedback_title">
+      <Position>2</Position>
+      <Comment>反馈标题</Comment>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="63" parent="19" name="feedback_content">
+      <Position>3</Position>
+      <Comment>反馈内容</Comment>
+      <DataType>varchar(64)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="19" name="user_id">
+      <Position>4</Position>
+      <Comment>用户id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="19" name="bicycle_id">
+      <Position>5</Position>
+      <Comment>车辆id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="19" name="feedback_time">
+      <Position>6</Position>
+      <Comment>反馈时间</Comment>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="19" name="feedback_statement">
+      <Position>7</Position>
+      <Comment>状态</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="68" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>feedback_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

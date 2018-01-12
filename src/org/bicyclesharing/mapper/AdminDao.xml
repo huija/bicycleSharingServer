@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.bicyclesharing.dao.AdminDao">
+    <!--为DAO接口提供sql语句配置-->
+    <!--1.通过管理员id查询管理员信息-->
+    <select id="selectAdminById" resultType="Admin" parameterType="Integer">
+        SELECT *
+        FROM admin
+        WHERE admin_id = #{adminId}
+    </select>
+    <!--2.通过管理员名字查询管理员信息-->
+    <select id="selectAdminByName" resultType="Admin" parameterType="String">
+        SELECT *
+        FROM admin
+        WHERE admin_name = #{adminName}
+    </select>
+    <!--3.查询所有管理员信息-->
+    <select id="selectAllAdmin" resultType="Admin">
+        SELECT *
+        FROM admin
+    </select>
+    <!--4.插入管理员(insert)-->
+    <insert id="insertAdmin" parameterType="Admin">
+        INSERT INTO admin (admin_id, admin_name, admin_password, admin_email)
+        VALUES (#{adminId}, #{adminName}, #{adminPassword}, #{adminEmail})
+    </insert>
+    <!--5.根据管理员id删除管理员-->
+    <delete id="deleteAdmin" parameterType="Integer">
+        DELETE FROM admin
+        WHERE admin_id = #{adminId}
+    </delete>
+    <!--6.更新管理员信息(单行)-->
+    <update id="updateAdmin" parameterType="Admin">
+        UPDATE admin
+        SET admin_password = #{adminPassword}, admin_email = #{adminEmail},
+            admin_name     = #{adminName}
+        WHERE admin_id = #{adminId}
+    </update>
+    <!--7.通过名称模糊(like)查询符合条件管理员-->
+    <select id="selectAdminByNameLike" parameterType="String" resultType="Admin">
+        SELECT *
+        FROM admin
+        WHERE admin_name LIKE '%${_parameter}%'
+    </select>
+</mapper>
