@@ -132,9 +132,9 @@ CREATE TABLE borrow (
   borrow_start_y    DOUBLE        NOT NULL
   COMMENT '开始纬度',
   borrow_end_x      DOUBLE        NOT NULL
-  COMMENT '开始经度',
+  COMMENT '结束经度',
   borrow_end_y      DOUBLE        NOT NULL
-  COMMENT '开始纬度',
+  COMMENT '结束纬度',
   cost              DECIMAL(9, 2) NOT NULL
   COMMENT '消费金额',
   remaining         DECIMAL(9, 2) NOT NULL
