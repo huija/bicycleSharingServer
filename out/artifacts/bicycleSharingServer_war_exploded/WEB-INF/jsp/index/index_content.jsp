@@ -13,7 +13,7 @@
 <head>
     <title>WOFI单车后台管理</title>
     <%@include file="../common/head.jsp" %>
-    <!--地图引入-->
+    <!--地图引入,希望能自己去申请一个key(免费),百度高德地图api-->
     <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
     <script src="http://cache.amap.com/lbs/static/es5.min.js"></script>
     <script src="http://webapi.amap.com/maps?v=1.3&key=a5e29f343721cf6a5c29a9ea1ceaf709"></script>
