@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.bicyclesharing.dao.RechargeDao">
+    <!--1.插入一条充值记录-->
+    <insert id="insertRecharge" parameterType="Recharge">
+        INSERT INTO recharge (recharge_id, user_id, recharge_amount, remaining, recharge_time)
+        VALUES (#{rechargeId}, #{userId}, #{rechargeAmount}, #{remaining}, #{rechargeTime})
+    </insert>
+    <!--2.按id删除一条充值记录-->
+    <delete id="deleteRecharge" parameterType="Integer">
+        DELETE FROM recharge
+        WHERE recharge_id = #{rechargeId}
+    </delete>
+    <!--3.查询所有充值记录-->
+    <select id="selectAllRecharge" resultType="Recharge">
+        SELECT *
+        FROM recharge
+        ORDER BY recharge_id DESC
+    </select>
+    <!--4.根据id查询一条充值记录-->
+    <select id="selectRechargeById" resultType="Recharge">
+        SELECT *
+        FROM recharge
+        WHERE recharge_id = #{rechargeId}
+    </select>
+    <!--5.查询指定用户的充值记录-->
+    <select id="selectRechargeByUserId" parameterType="Integer" resultType="Recharge">
+        SELECT *
+        FROM recharge
+        WHERE user_id = #{userId}
+    </select>
+    <!--6.查询当天用户充值总金额-->
+    <select id="selectRechargeCount" resultType="BigDecimal">
+        SELECT sum(recharge_amount)
+        FROM recharge
+        WHERE DATE(recharge_time) = current_date
+    </select>
+</mapper>
