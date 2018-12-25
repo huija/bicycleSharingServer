@@ -16,7 +16,7 @@ public class AdvancedOperationsInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
         HttpSession session = httpServletRequest.getSession();
         if (session.getAttribute("advanced") == null || session.getAttribute("admin") == null) {
-            httpServletResponse.sendRedirect("/admin-admin-password-show");
+            httpServletResponse.sendRedirect("/bicycleSharingServer/admin-admin-password-show");
         }
         return true;
     }
