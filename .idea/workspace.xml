@@ -7,11 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90f60110-f3b9-4404-b206-cbb504c0aaa4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bicyclesharing/interceptor/AdminLoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bicyclesharing/interceptor/AdminLoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bicyclesharing/interceptor/AdvancedOperationsInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bicyclesharing/interceptor/AdvancedOperationsInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/warDeploy/bicycleSharingServer.war" beforeDir="false" afterPath="$PROJECT_DIR$/warDeploy/bicycleSharingServer.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,144 +51,18 @@
     </expand>
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="81744958">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.4" value="4" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="LICENSE" value="1" />
-          <entry key="SpringLocalModels/module=bicycleSharingServer" value="1" />
-          <entry key="admin" value="2" />
-          <entry key="admin_message" value="1" />
-          <entry key="class" value="3" />
-          <entry key="css" value="1" />
-          <entry key="java" value="126" />
-          <entry key="js" value="2" />
-          <entry key="jsp" value="78" />
-          <entry key="less" value="1" />
-          <entry key="md" value="5" />
-          <entry key="properties" value="1" />
-          <entry key="sql" value="2" />
-          <entry key="user_feedback" value="2" />
-          <entry key="xml" value="31" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="CSS" value="1" />
-          <entry key="Database Element" value="5" />
-          <entry key="JAVA" value="126" />
-          <entry key="JSP" value="78" />
-          <entry key="JavaScript" value="2" />
-          <entry key="Less" value="1" />
-          <entry key="Markdown" value="5" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="1" />
-          <entry key="SQL" value="1" />
-          <entry key="Scratch" value="1" />
-          <entry key="UML" value="1" />
-          <entry key="XML" value="31" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="198" />
-          <entry key="jsp" value="109" />
-          <entry key="md" value="183" />
-          <entry key="properties" value="16" />
-          <entry key="txt" value="74" />
-          <entry key="xml" value="47" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="198" />
-          <entry key="JSP" value="109" />
-          <entry key="Markdown" value="183" />
-          <entry key="PLAIN_TEXT" value="74" />
-          <entry key="Properties" value="16" />
-          <entry key="XML" value="47" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-1980030974">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="2" />
-          <entry key="jsp" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="2" />
-          <entry key="JSP" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="FavoritesManager">
+    <favorites_list name="bicycleSharingServer" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1971">
-              <caret line="73" column="51" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index/index_content.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/bicyclesharing/interceptor/AdminLoginInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/bicyclesharing/interceptor/AdvancedOperationsInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>admin</find>
       <find>admin-</find>
       <find>studentSys-dispatcher-servlet</find>
+      <find>java</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -203,10 +77,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/bicyclesharing/service/RechargeServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/bicyclesharing/service/UserFeedbackServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/bicyclesharing/service/UserServiceTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-config/spring-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-config/spring-service.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/AdminDao.xml" />
@@ -252,8 +123,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index/index_content.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/admin_password.jsp" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/org/bicyclesharing/interceptor/AdminLoginInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/bicyclesharing/interceptor/AdvancedOperationsInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bicyclesharing/interceptor/AdminLoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -273,9 +147,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="F:\Software\apache-maven-3.5.4\maven-dependcies" />
-        <option name="mavenHome" value="F:/Software/apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="F:\Software\apache-maven-3.5.4\conf\settings.xml" />
+        <option name="localRepository" value="E:\Software\apache-maven-3.5.4\maven-dependencies" />
+        <option name="mavenHome" value="E:/Software/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="E:\Software\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -285,8 +159,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="741" />
-    <option name="y" value="1" />
+    <option name="x" value="541" />
+    <option name="y" value="255" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -298,8 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,102 +179,27 @@
               <item name="bicycleSharingServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="bicycleSharingServer" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="bicycleSharingServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bicycleSharingServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bicycleSharingServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bicycleSharingServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bicycleSharingServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bicycleSharingServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bicycleSharingServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bicycleSharingServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bicyclesharing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bicycleSharingServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bicycleSharingServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bicycleSharingServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bicycleSharingServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bicycleSharingServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bicycleSharingServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bicycleSharingServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bicycleSharingServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bicycleSharingServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bicycleSharingServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bicycleSharingServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bicycleSharingServer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540624922948" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550938268187" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.poratu.idea.plugins.tomcat.setting.TomcatSettingConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -431,7 +228,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat7">
+  <component name="RunManager" selected="Smart Tomcat.Tomcat7">
+    <configuration name="AdminDaoTest.selectAdminById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bicycleSharingServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bicyclesharing.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bicyclesharing.dao" />
+      <option name="MAIN_CLASS_NAME" value="bicyclesharing.dao.AdminDaoTest" />
+      <option name="METHOD_NAME" value="selectAdminById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdminServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bicycleSharingServer" />
       <extension name="coverage">
@@ -442,6 +255,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="bicyclesharing.service" />
       <option name="MAIN_CLASS_NAME" value="bicyclesharing.service.AdminServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -494,108 +308,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserFeedbackDaoTest.updateUserFeedback" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bicycleSharingServer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bicyclesharing.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bicyclesharing.dao" />
-      <option name="MAIN_CLASS_NAME" value="bicyclesharing.dao.UserFeedbackDaoTest" />
-      <option name="METHOD_NAME" value="updateUserFeedback" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="Tomcat7" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
+      <option name="DOC_BASE" value="F:\Github\bicycleSharingServer\src\main\webapp" />
+      <option name="CONTEXT_PATH" value="/bicycleSharingServer" />
+      <option name="TOMCAT_PORT" value="8080" />
+      <option name="AJP_PORT" value="8009" />
+      <option name="ADMIN_PORT" value="8005" />
+      <option name="VM_OPTIONS" value="" />
+      <option name="PASS_PARENT_ENV_OPTIONS" value="true" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tomcat7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="bicycleSharingServer:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/bicycleSharingServer" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_bicycleSharingServer" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="57475" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="bicycleSharingServer:war" />
-        </option>
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Tomcat Server.tomcat7" />
-      <item itemvalue="JUnit.UserFeedbackDaoTest.updateUserFeedback" />
-      <item itemvalue="JUnit.UserFeedbackDaoTest.selectUserFeedbackById" />
+      <item itemvalue="JUnit.AdminDaoTest.selectAdminById" />
       <item itemvalue="JUnit.AdminServiceTest" />
       <item itemvalue="JUnit.AdminServiceTest.editAdminMessage" />
       <item itemvalue="JUnit.AdminServiceTest.getAdminById" />
+      <item itemvalue="JUnit.UserFeedbackDaoTest.selectUserFeedbackById" />
+      <item itemvalue="Smart Tomcat.Tomcat7" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdminDaoTest.selectAdminById" />
         <item itemvalue="JUnit.AdminServiceTest.getAdminById" />
         <item itemvalue="JUnit.AdminServiceTest.editAdminMessage" />
         <item itemvalue="JUnit.AdminServiceTest" />
         <item itemvalue="JUnit.UserFeedbackDaoTest.selectUserFeedbackById" />
-        <item itemvalue="JUnit.UserFeedbackDaoTest.updateUserFeedback" />
       </list>
     </recent_temporary>
   </component>
@@ -620,6 +359,12 @@
       <workItem from="1545737974608" duration="389000" />
       <workItem from="1545738389501" duration="6000" />
       <workItem from="1545738578416" duration="11000" />
+      <workItem from="1550416093256" duration="213000" />
+      <workItem from="1550416724003" duration="3000" />
+      <workItem from="1550417068884" duration="1221000" />
+      <workItem from="1550418660897" duration="600000" />
+      <workItem from="1550419473002" duration="882000" />
+      <workItem from="1550931239136" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="redo project based on maven-management">
       <created>1540622311190</created>
@@ -667,61 +412,69 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RechargeDaoTest - 2018.10.21 at 14h 45m 42s.xml">
-      <configuration name="RechargeDaoTest" configurationId="JUnit" />
+    <history-entry file="AdminDaoTest_selectAdminById - 2019.02.17 at 23h 57m 10s.xml">
+      <configuration name="AdminDaoTest.selectAdminById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest - 2018.10.21 at 14h 45m 48s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
+    <history-entry file="AdminDaoTest_selectAdminById - 2019.02.18 at 00h 04m 48s.xml">
+      <configuration name="AdminDaoTest.selectAdminById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserFeedbackDaoTest - 2018.10.21 at 14h 45m 53s.xml">
-      <configuration name="UserFeedbackDaoTest" configurationId="JUnit" />
+    <history-entry file="AdminDaoTest_selectAdminById - 2019.02.18 at 00h 05m 05s.xml">
+      <configuration name="AdminDaoTest.selectAdminById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserFeedbackDaoTest_updateUserFeedback - 2018.10.21 at 14h 45m 57s.xml">
-      <configuration name="UserFeedbackDaoTest.updateUserFeedback" configurationId="JUnit" />
+    <history-entry file="AdminDaoTest_selectAdminById - 2019.02.18 at 00h 06m 31s.xml">
+      <configuration name="AdminDaoTest.selectAdminById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserFeedbackDaoTest_updateUserFeedback - 2018.10.21 at 14h 47m 14s.xml">
-      <configuration name="UserFeedbackDaoTest.updateUserFeedback" configurationId="JUnit" />
+    <history-entry file="AdminDaoTest_selectAdminById - 2019.02.18 at 00h 12m 28s.xml">
+      <configuration name="AdminDaoTest.selectAdminById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserFeedbackDaoTest_selectUserFeedbackById - 2018.10.21 at 14h 47m 27s.xml">
-      <configuration name="UserFeedbackDaoTest.selectUserFeedbackById" configurationId="JUnit" />
+    <history-entry file="AdminDaoTest_selectAdminById - 2019.02.18 at 00h 15m 34s.xml">
+      <configuration name="AdminDaoTest.selectAdminById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserFeedbackDaoTest_selectUserFeedbackById - 2018.10.21 at 14h 47m 43s.xml">
-      <configuration name="UserFeedbackDaoTest.selectUserFeedbackById" configurationId="JUnit" />
+    <history-entry file="AdminDaoTest_selectAdminById - 2019.02.18 at 00h 17m 33s.xml">
+      <configuration name="AdminDaoTest.selectAdminById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminServiceTest - 2018.10.21 at 14h 47m 50s.xml">
-      <configuration name="AdminServiceTest" configurationId="JUnit" />
+    <history-entry file="AdminDaoTest_selectAdminById - 2019.02.18 at 00h 17m 45s.xml">
+      <configuration name="AdminDaoTest.selectAdminById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminServiceTest_editAdminMessage - 2018.10.21 at 14h 47m 57s.xml">
-      <configuration name="AdminServiceTest.editAdminMessage" configurationId="JUnit" />
+    <history-entry file="AdminDaoTest_selectAdminById - 2019.02.18 at 00h 17m 52s.xml">
+      <configuration name="AdminDaoTest.selectAdminById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminServiceTest_getAdminById - 2018.10.21 at 14h 49m 03s.xml">
-      <configuration name="AdminServiceTest.getAdminById" configurationId="JUnit" />
+    <history-entry file="AdminDaoTest_selectAdminById - 2019.02.18 at 00h 18m 09s.xml">
+      <configuration name="AdminDaoTest.selectAdminById" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17989000" />
+    <option name="totallyTimeSpent" value="20942000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6499134" visible="true" weight="0.15458423" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5631068" visible="true" weight="0.22334754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Favorites" order="5" sideWeight="0.4368932" side_tool="true" weight="0.21908316" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" sideWeight="0.35008666" side_tool="true" weight="0.20895523" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3257329" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64285713" weight="0.31270358" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.64285713" weight="0.36117136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2204126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.35714287" side_tool="true" visible="true" weight="0.31270358" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.35714287" side_tool="true" weight="0.31270358" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49946696" weight="0.28230184" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -735,9 +488,10 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.4452954" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.22441365" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6499134" visible="true" weight="0.20895523" />
@@ -778,64 +532,12 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="redo project based on maven-management" />
     <MESSAGE value="update readme" />
     <option name="LAST_COMMIT_MESSAGE" value="update readme" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/admin_list_edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="71" column="53" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/admin_message.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2997">
-          <caret line="111" column="53" selection-start-line="111" selection-start-column="53" selection-end-line="111" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/admin_message_add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1026">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/admin_message_edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-783">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/admin_register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/bicycle/bicycle_add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/bicycle/bicycle_edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/bicycle/bicycle_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -902,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/500.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -944,13 +639,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.7.RELEASE/spring-webmvc-4.1.7.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.7.RELEASE/spring-webmvc-4.1.7.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/404.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -968,43 +657,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://SpringLocalModels/module=bicycleSharingServer">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>SpringLocalModels</ID>
-          <OriginalElement>module=bicycleSharingServer</OriginalElement>
-          <nodes>
-            <node x="" y="">module=bicycleSharingServer</node>
-            <node x="" y="">fileset=bicycleSharingServer/MVC bicycleSharing-dispatcher servlet context</node>
-            <node x="" y="">filePath=E:/Java/bicycleSharingServer/src/main/resources/spring-config/spring-service.xml</node>
-            <node x="" y="">filePath=E:/Java/bicycleSharingServer/src/main/resources/spring-config/spring-dao.xml</node>
-            <node x="" y="">filePath=E:/Java/bicycleSharingServer/src/main/resources/spring-config/spring-web.xml</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="363.0" y="72.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Show filesets as groups</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config/spring-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="uml://SpringLocalModels/module=bicycleSharingServer" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
@@ -1111,20 +764,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="189">
-            <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/list.jsp">
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bicyclesharing/interceptor/AdvancedOperationsInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1971">
-          <caret line="73" column="51" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
+        <state relative-caret-position="135">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -1135,17 +779,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/bicyclesharing/interceptor/AdminLoginInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+        <state relative-caret-position="523">
+          <caret line="73" column="51" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/bicyclesharing/interceptor/AdvancedOperationsInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config/spring-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        <state relative-caret-position="243">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bicyclesharing/interceptor/AdminLoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4c3468e5-2d1e-468a-ae41-b1d6b8581fc6/schema/bicycle_sharing/table/admin" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/bicyclesharing/dao/AdminDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="3368" selection-start-line="3368" selection-end-line="3368" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="623" selection-start-line="623" selection-end-line="623" />
+          <folding>
+            <element signature="e#25341#25342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="92" column="23" lean-forward="true" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
